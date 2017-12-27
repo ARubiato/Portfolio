@@ -1,12 +1,21 @@
 body {
-	background-color: powderblue;
+	background-color: azure;
 }
 
 h1 {
 align-content: center;	
 text-align: center;
 font-size:40px;
+font-family: Generica;
 }
+
+h3 {
+
+	font-family: 'Generica';
+	font-size:25px;
+
+}
+
 h4 {
 	align-content: auto;
 	text-align: auto;
@@ -18,52 +27,95 @@ p {
 	border-style: double;
 	
 }
-
-.container {
-
-	background-color:tomato;
-	opacity: :0.5;
-	width:auto;
-	height: 500px;
-
+a {
+	text-decoration: none;
 }
+
+
+
 
 header {
-	background-color:DarkSlateGrey;
 	display:block;
-	height: 200px;
+	height:auto;
 }
 
-footer {
-	background-color: cadetblue;
+div.portfolio :hover{
+    background-color: #E3E3E3;
+}
+
+div.projects :hover{
+    background-color: #E3E3E3;
+}
+
+div.services :hover{
+    background-color: #E3E3E3;
+}
+
+div.about :hover{
+    background-color: #E3E3E3;
+}
+
+.footer {
 	height:100px;
+	width:auto;
+	float:center;
+	
+}
+
+.container {
+	width:auto;
+	height: 100%;
+	float:center;
 
 }
 
 .mypicture {
 width:auto;
-height: auto;
+height:auto;
 float:left;
+margin-bottom:-100px;
 }
 
 .bio {
 	float:left;
-	margin-left:180px;
+	margin-left:50px;
 	margin-top: 100px;
-	background-color: red;
 }
 
 .desc {
-	margin-left:25px;
-	margin-top: 50px;
-	background-color: blue;
+	margin-left:50px;
+	margin-top: 30px;
 	float:left;
 }
 
 .right {
-	width: auto;
-	height:auto;
-	margin-bottom:auto;
-	float:left;
+	width:200px;
+	height:50px;
+	float:right;
+	margin-top:-150px;
+}
+
+.portfolio {
+	width:140px;
+	height:50px;
+
+	-webkit-transition:width 2s, height 2s;
+	transition: width 2s, height 2s;
+
+}
+.projects {
+	width:115px;
+	height:50px;
+
+}
+
+.services {
+	width:110px;
+	height:50px;
+
+}
+.about {
+	width:90px;
+	height:50px;
 
 }
